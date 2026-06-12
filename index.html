@@ -1,0 +1,607 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <meta name="theme-color" content="#fce8ed"/>
+  <title>for you, always ♡</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ✦ Floating deco elements (background) -->
+  <div class="bg-deco" aria-hidden="true" id="bg-deco"></div>
+
+  <!-- ================================================
+    NAV
+  ================================================ -->
+  <nav id="navbar">
+    <div class="nav-logo">for you, always ♡</div>
+    <div class="nav-links">
+      <a href="#story">our story</a>
+      <a href="#reasons">little things</a>
+      <a href="#reasons">reasons</a>
+      <a href="#dreamdate">dream date</a>
+      <a href="#memories">memories</a>
+      <a href="#forever">for forever</a>
+    </div>
+    <button class="nav-special" id="nav-special-btn">a special thing ✉</button>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="menu">☰</button>
+  </nav>
+
+  <!-- Mobile nav drawer -->
+  <div class="nav-drawer hidden" id="nav-drawer">
+    <button class="drawer-close" id="drawer-close">✕</button>
+    <a href="#story"    onclick="closeDrawer()">our story</a>
+    <a href="#reasons"  onclick="closeDrawer()">reasons</a>
+    <a href="#dreamdate" onclick="closeDrawer()">dream date</a>
+    <a href="#memories" onclick="closeDrawer()">memories</a>
+    <a href="#forever"  onclick="closeDrawer()">for forever</a>
+  </div>
+
+
+  <!-- ================================================
+    SECTION 1 ✦ HERO
+  ================================================ -->
+  <section id="hero">
+
+    <!-- Left content -->
+    <div class="hero-left">
+      <div class="hero-badge">Welcome to our little world ✦</div>
+      <h1 class="hero-title">
+        for you,<br/>
+        a thousand times<br/>
+        yes ♡
+      </h1>
+      <p class="hero-body">
+        a tiny corner of the internet,<br/>
+        made just to remind you how<br/>
+        incredibly special you are to me.
+      </p>
+      <button class="btn-pink" id="hero-enter-btn">Enter the love story ♡</button>
+      <div class="hero-arrow">↙</div>
+    </div>
+
+    <!-- Right: polaroid + envelope -->
+    <div class="hero-right">
+      <!-- Envelope -->
+      <div class="hero-envelope">
+        <div class="envelope-note">
+          <p>you make<br/>everything<br/>better ♡</p>
+        </div>
+      </div>
+      <!-- Polaroid -->
+      <div class="hero-polaroid">
+  <div class="polaroid-photo hero-photo">
+      <img src="images/img1.jpg" alt="Us Together">
+  </div>
+  <p class="polaroid-cap hand">you + me = ♡</p>
+  <div class="p-tape"></div>
+</div>
+      <!-- Floating hearts deco -->
+      <span class="deco-heart h1">♡</span>
+      <span class="deco-heart h2">♡</span>
+      <span class="deco-heart h3">♡</span>
+      <span class="deco-spark s1">✦</span>
+      <span class="deco-spark s2">✦</span>
+      <span class="deco-spark s3">✧</span>
+    </div>
+
+  </section>
+
+
+  <!-- ================================================
+    SECTION 2 ✦ OUR STORY
+  ================================================ -->
+  <section id="story" class="section-white">
+    <div class="story-inner">
+
+      <!-- Heart image left -->
+      <div class="story-img-wrap">
+        <div class="heart-frame">
+          <div class="photo-placeholder heart-photo">
+            <span>🌸</span>
+          </div>
+        </div>
+        <span class="deco-spark">✦</span>
+        <span class="deco-spark" style="bottom:20px;right:10px;font-size:1.2rem">✧</span>
+      </div>
+
+      <!-- Center text -->
+      <div class="story-center">
+        <div class="section-tag">♡ our story ♡</div>
+        <h2 class="section-title">how it all began...</h2>
+        <div class="title-underline"></div>
+        <p class="story-body">
+          it wasn't love at first sight, it was love at first<br/>
+          "from asking for joing guild to asking for life time partnership".<br> We came very far and more is still yet to come baby.
+        </p>
+        <span class="deco-spark" style="font-size:1.8rem; color:#e87d9a">♡</span>
+      </div>
+
+      <!-- Note card right -->
+      <div class="story-note">
+        <p class="note-tag">✦ A note to you ✦</p>
+        <p class="note-body hand">
+          thank you for being<br/>
+          you, and for making<br/>
+          my world so so<br/>
+          beautiful. You are very precious for me and i am always there for you  <br>I LOVE YOU 
+        </p>
+        <span class="note-heart">♡</span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================================================
+    SECTION 3 ✦ REASONS + LITTLE THINGS
+  ================================================ -->
+  <section id="reasons" class="section-blush">
+    <div class="reasons-row">
+
+      <!-- Left: Reasons grid -->
+      <div class="reasons-box card-soft">
+        <p class="box-tag hand">reasons why</p>
+        <h3 class="box-title">you're my favorite person</h3>
+        <div class="reason-icons-grid">
+          <div class="ri-cell">
+            <span class="ri-icon">♡</span>
+            <span>you're kind, precious, roaster, cutiee</span>
+          </div>
+          <div class="ri-cell">
+            <span class="ri-icon">✦</span>
+            <span>you make me smile and blush</span>
+          </div>
+          <div class="ri-cell">
+            <span class="ri-icon">💬</span>
+            <span>as soon as we talk time flies away</span>
+          </div>
+          <div class="ri-cell">
+            <span class="ri-icon">☆</span>
+            <span>you get my feelings way before i express</span>
+          </div>
+          <div class="ri-cell">
+            <span class="ri-icon">♪</span>
+            <span>our crazy memories where we fought battles, laughed, support each other..</span>
+          </div>
+          <div class="ri-cell">
+            <span class="ri-icon">∞</span>
+            <span>it's just... you forever and ever ♡</span>
+          </div>
+        </div>
+        <button class="btn-outline" id="more-reasons-btn">more little reasons →</button>
+      </div>
+
+      <!-- Right: Little things list -->
+      <div class="little-box card-soft">
+        <h3 class="box-title italic-title">little things i love about you</h3>
+        <ul class="little-list">
+          <li>
+            <span class="li-heart">♥</span>
+            <span>the way you laugh at the silliest things of mine </span>
+            <span class="li-icon">☺</span>
+          </li>
+          <li>
+            <span class="li-heart">♥</span>
+            <span>the way you care about everyone and specially me</span>
+            <span class="li-icon">🤍</span>
+          </li>
+          <li>
+            <span class="li-heart">♥</span>
+            <span>the way you overthink Mr.Husband (please don't do that) </span>
+            <span class="li-icon">☁</span>
+          </li>
+          <li>
+            <span class="li-heart">♥</span>
+            <span>the way you say my name "Meri Anu" </span>
+            <span class="li-icon">✦</span>
+          </li>
+          <li>
+            <span class="li-heart">♥</span>
+            <span>the way you just... exist yeaahh i love that all Babe ♡</span>
+            <span class="li-icon">♡</span>
+          </li>
+        </ul>
+        <!-- Decorative branch -->
+        <div class="branch-deco">❧</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Reasons expanded popup -->
+  <div class="popup-overlay hidden" id="reasons-popup">
+    <div class="popup-card">
+      <button class="popup-close-btn" id="reasons-popup-close">✕</button>
+      <h3 class="box-title">more reasons ♡</h3>
+      <div class="reasons-expanded-list" id="reasons-expanded-list">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ================================================
+    SECTION 4 ✦ DREAM DATE
+  ================================================ -->
+ <section id="dreamdate" class="section-white">
+  <div class="section-header center">
+    <span class="deco-spark">✦</span>
+    <h2 class="section-title">A dream date with you</h2>
+    <span class="deco-spark">✦</span>
+  </div>
+
+  <div class="dream-row">
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/beach pic.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/holding hnd.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/flower decor.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/nature hand hold.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/selfie.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/devi ji.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/cute couple.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/mirror selfie.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/pony decor.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/shoes.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/stare.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/stair.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/roaming in village.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/saudi arabia.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/kitchen masti.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+    <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/photo click.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+   <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/cat.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+     <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/eid.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+     <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/garba.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+      <div class="dream-item">
+      <div class="dream-photo">
+        <img src="images/bangles.jpg" alt="">
+      </div>
+      <span class="dream-heart">♡</span>
+    </div>
+
+  <div class="center-btn-row">
+    <button class="btn-outline">more dreams and moments togther</button>
+    <span class="deco-swirl">↩</span>
+  </div>
+</section>
+
+
+  <!-- ================================================
+    SECTION 5 ✦ MEMORIES + FOREVER
+  ================================================ -->
+  <section id="memories" class="section-blush">
+    <div class="mem-forever-row">
+
+      <!-- Memories left -->
+      <div class="mem-col">
+        <div class="section-header">
+          <span class="deco-spark sm">♡</span>
+          <h2 class="section-title sm-title">sweet memories</h2>
+          <span class="deco-spark sm">✦</span>
+        </div>
+
+        <div class="polaroids-row">
+          <div class="polaroid tilt-neg">
+            <div class="photo-placeholder mem-ph">
+              <img src="images/shah1.jpeg" alt="Memory">
+              </div>
+            <div class="p-tape"></div>
+          </div>
+          <div class="polaroid tilt-zero">
+            <div class="photo-placeholder mem-ph">
+              <img src="images/shah4.jpeg" alt="Memory">
+            </div>
+            <div class="p-tape"></div>
+          </div>
+
+          <div class="polaroid tilt-zero">
+            <div class="photo-placeholder mem-ph">
+              <img src="images/shah3.jpeg" alt="Memory">
+            </div>
+            <div class="p-tape "></div>
+          </div>
+
+          <div class="polaroid tilt-pos">
+            <div class="photo-placeholder mem-ph">
+              <img src="images/shah5.jpeg" alt="Memory">
+            </div>
+            <div class="p-tape"></div>
+          </div>
+        </div>
+        <button class="btn-outline">Cutieee pie kuchupuchu 💖</button>
+      </div>
+
+      <!-- Forever right -->
+      <div class="forever-col" id="forever">
+        <h2 class="section-title sm-title italic-title">forever yours?</h2>
+        <p class="forever-sub">no matter what, can i always be yours?</p>
+
+        <div class="envelope-big">
+          <div class="env-body">
+            <div class="env-heart">♡</div>
+          </div>
+          <div class="env-flap"></div>
+        </div>
+
+        <div class="forever-btns">
+          <button class="btn-pink" id="yes-always-btn">YES ALWAYS ♡</button>
+          <button class="btn-outline-pink no-btn" id="only-you-btn">NO </button>
+          <div class="no-tooltip hidden" id="no-tooltip"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================================================
+    FOOTER
+  ================================================ -->
+  <footer id="footer">
+    <div class="footer-deco">
+      <span class="deco-spark">✦</span>
+      <span class="footer-heart">♡</span>
+      <span class="deco-spark">✦</span>
+    </div>
+    <p class="footer-text hand">Thank you for being the best part of my life ♡</p>
+    <p class="footer-sub">made with love for Mr.Husband</p>
+    <p class="footer-sub">you always make my day extra special..i know we would face many challenges in future but you being my side i can handle everything.</p>
+    <p class="footer-sub">I LOVE YOU</p>
+    <div class="footer-bear">🧸</div>
+    <div class="footer-sparks">
+      <span>✦</span><span>✧</span><span>✦</span><span>✧</span>
+    </div>
+  </footer>
+
+
+  
+  
+
+  <!-- Special thing popup -->
+  <div class="popup-overlay hidden" id="special-popup">
+    <div class="popup-card special-card">
+      <button class="popup-close-btn" id="special-close">✕</button>
+      <div class="special-inner">
+        <div class="special-env">✉</div>
+        <h3 class="box-title hand">A special thing ♡</h3>
+        <p class="special-body">
+          this whole website is a love letter.<br/>
+          every pixel is proof i think about you too much.
+          always.
+        </p>
+        <p class="special-body"> I am sitting here thinking about you,<br> and i've got to say , I'm so 
+          happy and blessed you are in my life . I love you so much <br> and i want to spend every moment of my life making you happy.
+        <br> Being with you i found something real and strong yaar. I'm all in, you  know? <br> I promise to keep cherishing you, to always have the utmost respect for you,
+        and to make <br> sure you're as happy as you make me Babe. <br>  I'm supper excited about where we're going together.
+        <br> LOVE YOU FOREVER AND ALWAYS SHAHID ♡</br> and yes You're all mine and i am all yours.
+        </p>
+        <br>
+        <button class="btn-pink" id="special-enter">PREMIUM SUBSCRIPTION ♡</button>
+
+        <!-- ============================================
+          SONG DEDICATION SECTION
+        ============================================ -->
+        <div class="song-dedication">
+          <div class="song-deco-spark sd1">✦</div>
+          <div class="song-deco-spark sd2">✧</div>
+          <div class="song-deco-spark sd3">✦</div>
+          <div class="song-deco-spark sd4">✧</div>
+
+          <p class="song-section-tag hand">♡ a little something more ♡</p>
+          <h3 class="song-title">A Song Dedicated To You ♡</h3>
+
+          <div class="reel-card">
+            <div class="reel-card-glow"></div>
+            <div class="reel-card-sparkles">
+              <span>✦</span><span>✧</span><span>♡</span><span>✦</span><span>✧</span>
+            </div>
+            <div class="reel-card-inner">
+              <div class="reel-play-icon">▶</div>
+              <p class="reel-card-title hand">"This reel is dedicated to you ♡"</p>
+              <p class="reel-card-sub">"Every lyric reminds me of us."</p>
+            </div>
+            <div class="reel-card-tape"></div>
+          </div>
+
+          <p class="song-note hand">"Some songs become memories."</p>
+
+          <button class="btn-outline-pink song-play-btn" id="song-play-btn">
+            <span class="song-play-icon">♫</span> Play Our Song
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+    YES IMAGE REVEAL OVERLAY
+  ============================================ -->
+  <div class="reveal-overlay hidden" id="yes-overlay">
+    <div class="reveal-bg-deco" aria-hidden="true">
+      <span class="rb-heart rb1">♡</span>
+      <span class="rb-heart rb2">♡</span>
+      <span class="rb-heart rb3">♡</span>
+      <span class="rb-heart rb4">♡</span>
+      <span class="rb-spark rs1">✦</span>
+      <span class="rb-spark rs2">✧</span>
+      <span class="rb-spark rs3">✦</span>
+      <span class="rb-spark rs4">✧</span>
+    </div>
+    <button class="reveal-close" data-close="yes-overlay">✕</button>
+    <div class="reveal-card">
+      <div class="reveal-image-frame">
+        <div class="reveal-sparkle-burst">
+          <span>✦</span><span>✧</span><span>♡</span><span>✦</span><span>✧</span><span>♡</span>
+        </div>
+        <div class="reveal-image-ph">
+         <img src="images/love.gif" alt="Forever Yours">
+        </div>
+        <span class="rev-heart h-a">♡</span>
+        <span class="rev-heart h-b">♡</span>
+        <span class="rev-heart h-c">♡</span>
+      </div>
+      <p class="reveal-line1 hand">I knew your answer before you clicked.</p>
+      <p class="reveal-line2"><br>Thank you for choosing me.</p>
+      <button class="btn-pink reveal-final-btn">Forever Yours ♡</button>
+    </div>
+  </div>
+
+  <!-- ============================================
+    FUNNY IMAGE REVEAL OVERLAY (after 4th NO click)
+  ============================================ -->
+  <div class="reveal-overlay hidden" id="funny-overlay">
+    <div class="reveal-bg-deco" aria-hidden="true">
+      <span class="rb-heart rb1">♡</span>
+      <span class="rb-heart rb2">♡</span>
+      <span class="rb-heart rb3">♡</span>
+      <span class="rb-heart rb4">♡</span>
+      <span class="rb-spark rs1">✦</span>
+      <span class="rb-spark rs2">✧</span>
+      <span class="rb-spark rs3">✦</span>
+      <span class="rb-spark rs4">✧</span>
+    </div>
+    <button class="reveal-close" data-close="funny-overlay">✕</button>
+    <div class="reveal-card">
+      <div class="reveal-image-frame">
+        <div class="reveal-sparkle-burst">
+          <span>✦</span><span>✧</span><span>♡</span><span>✦</span><span>✧</span><span>♡</span>
+        </div>
+        <div class="reveal-image-ph">
+          <img src="images/beat.jpg" alt="Tricked You">
+        </div>
+        <span class="rev-heart h-a">♡</span>
+        <span class="rev-heart h-b">♡</span>
+        <span class="rev-heart h-c">♡</span>
+      </div>
+      <p class="reveal-line1 hand"><br><br><br>oyyy yes click kar maar khayega!!!</p>
+      <p class="reveal-line2 funny-reveal-line2 hidden">there was never a no option.</p>
+      <button class="btn-pink reveal-final-btn" id="funny-to-yes-btn">okay okay, YES ♡</button>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
